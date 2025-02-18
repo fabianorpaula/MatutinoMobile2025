@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1151274907732625602}
   m_Layer: 0
   m_Name: Pirulito
-  m_TagString: Untagged
+  m_TagString: Doce
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
