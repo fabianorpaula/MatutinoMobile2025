@@ -16,8 +16,7 @@ public class Personagem : MonoBehaviour
         {
             Vida--;
             if(Vida <= 0)
-            {
-                Time.timeScale = 0;
+            {   Time.timeScale = 0;
                 Destroy(this.gameObject);
             }
         }
