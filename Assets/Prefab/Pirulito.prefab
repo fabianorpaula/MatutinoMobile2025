@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8076312111007279067
+--- !u!1 &1757714879263297868
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,24 +8,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 588191873125178497}
-  - component: {fileID: 4593415387157173798}
-  - component: {fileID: 7806669880929846330}
-  - component: {fileID: 7809020766202031240}
+  - component: {fileID: 1886285498943708017}
+  - component: {fileID: 7537336681948230057}
+  - component: {fileID: 7575850880184521594}
+  - component: {fileID: 1151274907732625602}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Pirulito
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &588191873125178497
+--- !u!4 &1886285498943708017
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8076312111007279067}
+  m_GameObject: {fileID: 1757714879263297868}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.43, y: 4.44, z: 0}
@@ -34,13 +34,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4593415387157173798
+--- !u!212 &7537336681948230057
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8076312111007279067}
+  m_GameObject: {fileID: 1757714879263297868}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -78,8 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.035776798, g: 0.13207549, b: 0.01952058, a: 1}
+  m_Sprite: {fileID: -2067774092001949887, guid: 25206396f85273e4b9833c70f057b112, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -89,13 +89,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &7806669880929846330
+--- !u!58 &7575850880184521594
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8076312111007279067}
+  m_GameObject: {fileID: 1757714879263297868}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -125,14 +125,14 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!50 &7809020766202031240
+--- !u!50 &1151274907732625602
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8076312111007279067}
+  m_GameObject: {fileID: 1757714879263297868}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
