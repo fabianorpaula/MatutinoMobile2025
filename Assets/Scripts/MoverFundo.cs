@@ -7,6 +7,13 @@ public class MoverFundo : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(transform.position.y);
+        if (transform.position.y < -12)
+        {
+            
+            transform.position = new Vector3(0, 15, 0);
+        }
+
         meuTempo += Time.deltaTime;
         
         if(meuTempo > 0.01f)
@@ -16,9 +23,6 @@ public class MoverFundo : MonoBehaviour
             meuTempo = 0;
         }
 
-        if(transform.position.x < -12)
-        {
-            transform.position = new Vector3(0, 15, 0);
-        }
+       
     }
 }
