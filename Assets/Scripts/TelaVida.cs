@@ -1,16 +1,25 @@
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class TelaVida : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private TMP_Text meuTexto;
+    private Personagem DadosPersonagem;
+    public Image barraVIda;
     void Start()
     {
-        
+        meuTexto = GetComponent<TMP_Text>();
+        DadosPersonagem = GameObject.
+            FindGameObjectWithTag("Player").
+            GetComponent<Personagem>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        meuTexto.text = "VIDA :" + DadosPersonagem.Vida.ToString();
+        int vidaAtual = DadosPersonagem.Vida * 108;
+
+        barraVIda.rectTransform.sizeDelta = 
+            new Vector2(vidaAtual, 100);
     }
 }
