@@ -5,12 +5,20 @@ public class Personagem : MonoBehaviour
     public int Vida = 10;
     public int Diabetes = 0;
 
+    private ControladorJogo CJ;
 
-
+    private void Start()
+    {
+        CJ = GameObject.FindGameObjectWithTag("GameController").
+            GetComponent<ControladorJogo>();
+    }
 
     private void Update()
     {
-        Mover();
+        if (CJ.EstadoAtual() == true)
+        {
+            Mover();
+        }
     }
 
     void Mover()
