@@ -133,6 +133,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -347,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png-transparent-cartoon-poison-set-removebg-preview_0: -4210344199370013596
+      png-transparent-cartoon-poison-set-removebg-preview_1: -4625976224365338044
+      png-transparent-cartoon-poison-set-removebg-preview_2: -6743482245537314384
+      png-transparent-cartoon-poison-set-removebg-preview_3: -329031952709467354
+      png-transparent-cartoon-poison-set-removebg-preview_4: 6078450330020524819
+      png-transparent-cartoon-poison-set-removebg-preview_5: -2058757886964998762
+      png-transparent-cartoon-poison-set-removebg-preview_6: -4016979450731005559
+      png-transparent-cartoon-poison-set-removebg-preview_7: 6397566740562791434
+      png-transparent-cartoon-poison-set-removebg-preview_8: -9156027093814277697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
