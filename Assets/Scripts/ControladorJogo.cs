@@ -3,9 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class ControladorJogo : MonoBehaviour
 {
-    public bool estadoJogo = true;
-    //public bool gameState = true;
 
+    public bool estadoJogo;
+    //public bool gameState = true;
+    //O que?
      void Start()
     {
         Time.timeScale = 1;
